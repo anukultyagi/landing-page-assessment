@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawco By Anukul Tyagi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Top nav  -->
+      <div class="top-nav py-3">
+        <div
+          class="container-xxl d-flex flex-wrap align-items-center justify-content-between view-animation"
+        >
+          <p class="top-nav-left d-flex gap-2 align-items-stretch mb-0">
+            <span class="d-flex align-items-center">
+              <svg
+                width="16"
+                height="16"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 0C3.13 0 0 3.13 0 7C0 11.17 4.42 16.92 6.24 19.11C6.64 19.59 7.37 19.59 7.77 19.11C9.58 16.92 14 11.17 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                ></path>
+              </svg>
+            </span>
+            Los Feliz Blvd, Los Angeles, CA 90027, USA
+          </p>
+
+          <div class="top-nav-right d-flex align-items-center gap-3">
+            <p class="mb-0 d-none d-md-block">Follow:</p>
+            <div class="d-flex gap-3 align-items-center">
+              <a href="#" class="text-white"
+                ><img
+                  src="/assets/images/Insta.svg"
+                  alt="Instagram"
+                  class="social-icon"
+              /></a>
+              <a href="#" class="text-white"
+                ><img
+                  src="/assets/images/Fb.svg"
+                  alt="Facebook"
+                  class="social-icon"
+              /></a>
+              <a href="#" class="text-white"
+                ><img
+                  src="/assets/images/pajamas_twitter.svg"
+                  alt="Twitter"
+                  class="social-icon"
+              /></a>
+              <a href="#" class="text-white"
+                ><img
+                  src="/assets/images/linkedin-icon.svg"
+                  alt="LinkedIn"
+                  class="social-icon"
+              /></a>
+              <a href="#" class="text-white"
+                ><img
+                  src="/assets/images/notification-icon.svg"
+                  alt="Notifications"
+                  class="social-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-transparent p-2 p-md-3 p-lg-4">
+        <div class="container-xxl mx-auto view-animation">
+          <!-- Brand Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/images/brand-logo-light.svg"
+              alt="Brand Logo"
+              class="brand-logo"
+            />
+          </a>
+
+          <!-- Mobile Toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Items -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav align-items-center gap-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Find an Attorney</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+
+              <!-- User Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex align-items-center gap-2 user-dropdown"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    class="user-avatar"
+                    src="/assets/images/user-avatar.png"
+                    alt="User Avatar"
+                  />
+                  <span>Welcome Danny</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+              </li>
+
+              <!-- CTA Button -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button class="btn btn-primary rounded-pill">
+                    Grow your practice
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header section  -->
+      <header class="header-section text-center bg-image">
+        <div
+          class="mask d-flex justify-content-center align-items-center p-2 w-full w-md-80"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          <div class="header-text text-light text-center">
+            <h3 class="mb-4 view-animation">Your Legal Solution Starts Here</h3>
+            <h1 class="mb-5 animate-fade-in view-animation">
+              Instantly Connecting <br class="d-lg-block d-none" />
+              People to Attorneys.
+            </h1>
+            <form action="" class="w-85 mx-auto view-animation">
+              <div class="d-block d-lg-flex gap-3 justify-content-center">
+                <div
+                  class="border border-1 rounded-pill overflow-hidden w-100 d-flex align-items-center input-wrapper mb-3 mb-lg-0"
+                >
+                  <input
+                    type="text"
+                    class="form-control bg-transparent rounded-0 search-input"
+                    placeholder="Search for Attorneys..."
+                  />
+                  <div
+                    class="d-flex align-items-center justify-content-center search-icon px-3 py-3"
+                  >
+                    <img
+                      src="/assets/images/search-icon.svg"
+                      alt="Search Icon"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <button
+                    class="btn btn-primary dropdown-toggle rounded-pill"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Location
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </header>
+
+      <!-- About Section  -->
+      <section class="about-section">
+        <div
+          class="container-xxl align-items-center px-0 mx-auto row row-cols-1 row-cols-lg-2 container-xxl align-items-center px-0 mx-auto row row-cols-1 row-cols-lg-2 gap-5 gap-lg-0"
+        >
+          <div class="col animate-fade-in view-animation">
+            <h3 class="mb-3">About Us</h3>
+            <h2 class="about-section-heading text-primary fw-normal mb-3">
+              We Are The Most Popular
+              <span class="fw-bold"> Law Attorney </span> That Can Help You
+              Perfectly!
+            </h2>
+            <p class="sub-heading fw-light lh-base">
+              The argument in favor of using filler text goes something like
+              this: If you use real content in the design process, anytime you
+              reach a review point you’ll end up reviewing and negotiating the
+              content itself and not the design.The argument in favor of using
+              filler text goes something like this: If you use real content in
+              the design process, anytime you reach a review point you’ll end up
+              reviewing and negotiating the content itself and not the design.
+              <br />
+              <br />
+              Aenean tincidunt id mauris id auctor. Donec at ligula lacus. Nulla
+              dignissim mi quis neque interdum, quis porta sem finibus.
+            </p>
+            <button class="btn btn-primary rounded-pill">Read More</button>
+          </div>
+          <div class="col animate-fade-in view-animation">
+            <div
+              class="p-3 border border-1 border-dark justify-content-center align-items-center d-flex"
+            >
+              <img
+                class="img-fluid w-100"
+                src="/assets/images/about-section-image.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section  -->
+      <section class="service-section">
+        <div class="container-xxl text-center mb-5">
+          <h1 class="text-primary view-animation">What We Cover</h1>
+          <p class="text-light w-80 mx-auto fw-light view-animation">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered altera tion in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing hidden.
+          </p>
+        </div>
+        <div class="container-xxl">
+          <div class="row row-cols-lg-3 row-cols-1 mb-5">
+            <div class="col p-3 view-animation">
+              <div class="service-card text-center">
+                <img
+                  class="mb-2"
+                  src="/assets/images/service-icon.svg"
+                  alt="Civil Law Icon"
+                />
+                <p class="service-card-heading">Civil Law</p>
+                <p class="service-card-desc fw-light">
+                  Aenean tincidunt id mauris id auctor. Donec at ligula lacus.
+                  Nulla dignissim mi quis neque interdum, quis porta sem
+                  finibus.
+                </p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="service-card text-center">
+                <img
+                  class="mb-2"
+                  src="/assets/images/service2-icon.svg"
+                  alt="Compliant HR Policy Icon"
+                />
+                <p class="service-card-heading">Complaint HR policy</p>
+                <p class="service-card-desc fw-light">
+                  Aenean tincidunt id mauris id auctor. Donec at ligula lacus.
+                  Nulla dignissim mi quis neque interdum, quis porta sem
+                  finibus.
+                </p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="service-card text-center">
+                <img
+                  class="mb-2"
+                  src="/assets/images/service3-icon.svg"
+                  alt="Civil Law Icon"
+                />
+                <p class="service-card-heading">Specialised lawyers</p>
+                <p class="service-card-desc fw-light">
+                  Aenean tincidunt id mauris id auctor. Donec at ligula lacus.
+                  Nulla dignissim mi quis neque interdum, quis porta sem
+                  finibus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories Section  -->
+      <section class="category-section">
+        <div class="container-xxl text-center mb-5">
+          <h1 class="text-primary view-animation view-animation">
+            Our Categories
+          </h1>
+          <p
+            class="sub-heading w-80 mx-auto fw-light view-animation view-animation"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered altera tion in some form, by injected
+            humour, or randomised words.
+          </p>
+        </div>
+        <div class="container-xxl">
+          <div class="row row-cols-lg-4 row-cols-md-2 mb-5">
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets/images/category-adoption-icon.svg"
+                  alt="Adoption Icon"
+                />
+                <p class="">Adoption</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-appeals-icon.svg"
+                  alt="Appeals Icon"
+                />
+                <p class="">Appeals</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-familyicon.svg"
+                  alt="Family Icon"
+                />
+                <p class="">Family</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-personal-icon.svg"
+                  alt="Personal Icon"
+                />
+                <p class="">Personal</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-business-icon.svg"
+                  alt="Business Icon"
+                />
+                <p class="">Business</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-discrimination-icon.svg"
+                  alt="Discrimination Icon"
+                />
+                <p class="">Discrimination</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-harassment-icon.svg"
+                  alt="Sexual Icon"
+                />
+                <p class="">Sexual Harassment</p>
+              </div>
+            </div>
+            <div class="col p-3 view-animation">
+              <div class="category-card text-center">
+                <img
+                  class="mb-3"
+                  src="/assets//images/category-corporate-icon.svg"
+                  alt="Corporate Icon"
+                />
+                <p class="">Corporate</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary rounded-pill">View More</button>
+          </div>
+        </div>
+      </section>
+      <!-- Stats Banner  -->
+      <section
+        class="stats-banner d-flex justify-content-center align-items-center"
+      >
+        <div class="container-xxl">
+          <div class="row row-cols-lg-4 row-cols-md-2 rol-cols-1">
+            <div class="col text-center view-animation">
+              <h1>40+</h1>
+              <h4>Engagement Per Year</h4>
+            </div>
+            <div class="col text-center view-animation">
+              <h1>7k+</h1>
+              <h4>Client Satisfaction</h4>
+            </div>
+            <div class="col text-center view-animation">
+              <h1>80</h1>
+              <h4>Attorney</h4>
+            </div>
+            <div class="col text-center view-animation">
+              <h1>70+</h1>
+              <h4>Client Revenue Retention</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Attorney section  -->
+      <section class="attorney-section">
+        <div class="container-xxl text-center mb-5">
+          <h1 class="text-primary view-animation">
+            Top-Rated Attorneys Near you
+          </h1>
+          <p class="sub-heading w-80 mx-auto fw-light view-animation">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered altera tion in some form, by injected
+            humour, or randomised words.
+          </p>
+        </div>
+        <div class="container-xxl">
+          <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 mb-5">
+            <div class="col px-1 attorney-card">
+              <div class="attorney-category p-3">
+                <p class="text-center fw-medium">Business</p>
+              </div>
+              <div class="attorney-details mx-auto w-80 w-md-100">
+                <img
+                  class="img-fluid mb-2 attorney-img"
+                  src="/assets/images/attorney-1.png"
+                  alt=""
+                />
+                <div>
+                  <h3 class="mb-2">Devon M. Thurtle</h3>
+                  <p class="text-primary fw-medium fs-6 mb-2">
+                    Business Attorney
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                    style="color: #424242"
+                  >
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <img src="/assets/images/location-tag-icon.svg" alt="" />
+                      500 meters away
+                    </p>
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <svg
+                        width="12"
+                        viewBox="0 0 14 20"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 0C3.13 0 0 3.13 0 7C0 11.17 4.42 16.92 6.24 19.11C6.64 19.59 7.37 19.59 7.77 19.11C9.58 16.92 14 11.17 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                          fill="currentColor"
+                          fill-opacity="0.95"
+                        />
+                      </svg>
+
+                      Seattle, WA
+                    </p>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary rounded-pill">
+                      Connect
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col px-1 attorney-card">
+              <div class="attorney-category p-3">
+                <p class="text-center fw-medium">Family</p>
+              </div>
+              <div class="attorney-details mx-auto w-80 w-md-100">
+                <img
+                  class="img-fluid mb-2 attorney-img"
+                  src="/assets/images/attorney-2.png"
+                  alt=""
+                />
+                <div>
+                  <h3 class="mb-2">Devon M. Thurtle</h3>
+                  <p class="text-primary fw-medium fs-6 mb-2">
+                    Family Attorney
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                    style="color: #424242"
+                  >
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <img src="/assets/images/location-tag-icon.svg" alt="" />
+                      500 meters away
+                    </p>
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <svg
+                        width="12"
+                        viewBox="0 0 14 20"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 0C3.13 0 0 3.13 0 7C0 11.17 4.42 16.92 6.24 19.11C6.64 19.59 7.37 19.59 7.77 19.11C9.58 16.92 14 11.17 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                          fill="currentColor"
+                          fill-opacity="0.95"
+                        />
+                      </svg>
+
+                      Seattle, WA
+                    </p>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary rounded-pill">
+                      Connect
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col px-1attorney-card">
+              <div class="attorney-category p-3">
+                <p class="text-center fw-medium">Adoption</p>
+              </div>
+              <div class="attorney-details mx-auto w-80 w-md-100">
+                <img
+                  class="img-fluid mb-2 attorney-img"
+                  src="/assets/images/attorney-3.png"
+                  alt=""
+                />
+                <div>
+                  <h3 class="mb-2">Devon M. Thurtle</h3>
+                  <p class="text-primary fw-medium fs-6 mb-2">
+                    Adoption Attorney
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                    style="color: #424242"
+                  >
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <img src="/assets/images/location-tag-icon.svg" alt="" />
+                      500 meters away
+                    </p>
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <svg
+                        width="12"
+                        viewBox="0 0 14 20"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 0C3.13 0 0 3.13 0 7C0 11.17 4.42 16.92 6.24 19.11C6.64 19.59 7.37 19.59 7.77 19.11C9.58 16.92 14 11.17 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                          fill="currentColor"
+                          fill-opacity="0.95"
+                        />
+                      </svg>
+
+                      Seattle, WA
+                    </p>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary rounded-pill">
+                      Connect
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col px-1 attorney-card">
+              <div class="attorney-category p-3">
+                <p class="text-center fw-medium">Discrimination</p>
+              </div>
+              <div class="attorney-details mx-auto w-80 w-md-100">
+                <img
+                  class="img-fluid mb-2 attorney-img"
+                  src="/assets/images/attorney-4.png"
+                  alt=""
+                />
+                <div>
+                  <h3 class="mb-2">Devon M. Thurtle</h3>
+                  <p class="text-primary fw-medium fs-6 mb-2">
+                    Discriminations Attorney
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                    style="color: #424242"
+                  >
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <img src="/assets/images/location-tag-icon.svg" alt="" />
+                      500 meters away
+                    </p>
+                    <p class="mb-0 d-flex align-items-center gap-1 fw-medium">
+                      <svg
+                        width="12"
+                        viewBox="0 0 14 20"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 0C3.13 0 0 3.13 0 7C0 11.17 4.42 16.92 6.24 19.11C6.64 19.59 7.37 19.59 7.77 19.11C9.58 16.92 14 11.17 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                          fill="currentColor"
+                          fill-opacity="0.95"
+                        />
+                      </svg>
+
+                      Seattle, WA
+                    </p>
+                  </div>
+                  <div>
+                    <button class="btn btn-primary rounded-pill">
+                      Connect
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary rounded-pill btn-lg">
+              View More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial section  -->
+      <section class="testimonial-section">
+        <div class="container-xxl">
+          <div class="row row-cols-1 row-cols-md-2 text-light mb-5">
+            <div class="col view-animation">
+              <h1 class="section-heading">What Our Clients Say About Us</h1>
+            </div>
+            <div class="col px-0 view-animation">
+              <p class="lh-base">
+                There are many
+                <span class="text-highlight">variations of passages </span>of
+                Lorem Ipsum available, but the majority have su alteration in
+                some form, by injected humour, believable.There are
+                <span class="text-highlight">
+                  many variations of passages
+                </span>
+                of Lorem Ipsum available, but the majority have su alteration in
+                some form, by injected humour, believable.
+              </p>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+            <div class="col view-animation">
+              <div
+                class="testimonial-card mb-3"
+                style="border-radius: 0 0 0 36px"
+              >
+                <img class="mb-3" src="/assets/images/quotes-icon.svg" alt="" />
+                <p>
+                  There are of Lorem Ipsum available, but the majority have su
+                  alteration in some form, by injected oir which don't look even
+                  slightly believable.
+                </p>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="">
+                  <img
+                    class="rounded-circle"
+                    src="/assets/images/client-1.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <h3 class="text-light fw-semibold mb-0">Nattasha</h3>
+                  <p class="mb-0" style="color: #d7d7d7">Junior Lawyer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col view-animation">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="">
+                  <img
+                    class="rounded-circle"
+                    src="/assets/images/client-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <h3 class="text-light fw-semibold mb-0">Minci pall</h3>
+                  <p class="mb-0" style="color: #d7d7d7">Consultant</p>
+                </div>
+              </div>
+              <div
+                class="testimonial-card mb-3"
+                style="border-radius: 36px 0 0 0"
+              >
+                <img class="mb-3" src="/assets/images/quotes-icon.svg" alt="" />
+                <p>
+                  There are of Lorem Ipsum available, but the majority have su
+                  alteration in some form, by injected oir which don't look even
+                  slightly believable.
+                </p>
+              </div>
+            </div>
+            <div class="col view-animation">
+              <div
+                class="testimonial-card mb-3"
+                style="border-radius: 0 0 0 36px"
+              >
+                <img class="mb-3" src="/assets/images/quotes-icon.svg" alt="" />
+                <p>
+                  There are of Lorem Ipsum available, but the majority have su
+                  alteration in some form, by injected oir which don't look even
+                  slightly believable.
+                </p>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="">
+                  <img
+                    class="rounded-circle"
+                    src="/assets/images/client-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <h3 class="text-light fw-semibold mb-0">Julia Rose</h3>
+                  <p class="mb-0" style="color: #d7d7d7">Consultant</p>
+                </div>
+              </div>
+            </div>
+            <div class="col view-animation">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="">
+                  <img
+                    class="rounded-circle"
+                    src="/assets/images/client-4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="d-flex flex-column">
+                  <h3 class="text-light fw-semibold mb-0">John David</h3>
+                  <p class="mb-0" style="color: #d7d7d7">Designer</p>
+                </div>
+              </div>
+              <div
+                class="testimonial-card mb-3"
+                style="border-radius: 36px 0 0 0"
+              >
+                <img class="mb-3" src="/assets/images/quotes-icon.svg" alt="" />
+                <p>
+                  There are of Lorem Ipsum available, but the majority have su
+                  alteration in some form, by injected oir which don't look even
+                  slightly believable.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- press section -->
+      <section
+        class="press-section py-5 d-flex align-items-center justify-content-center"
+      >
+        <div class="container-xxl">
+          <h1 class="section-heading text-center fw-semibold mb-5">
+            Meet The Press
+          </h1>
+          <div class="container my-5">
+            <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+              <div class="col view-animation">
+                <img
+                  class="img-fluid press-logo"
+                  src="/assets/images/press-reader.svg"
+                  alt="Press Reader"
+                />
+              </div>
+              <div class="col view-animation">
+                <img
+                  class="img-fluid press-logo"
+                  src="/assets/images/press-media.svg"
+                  alt="Press Media"
+                />
+              </div>
+              <div class="col view-animation">
+                <img
+                  class="img-fluid press-logo"
+                  src="/assets/images/associated-press.svg"
+                  alt="Associated Press"
+                />
+              </div>
+              <div class="col view-animation">
+                <img
+                  class="img-fluid press-logo"
+                  src="/assets/images/press-metal.svg"
+                  alt="Press Metal"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact form section -->
+      <section class="contact-section py-5 px-2 px-md-3">
+        <div class="container-xxl">
+          <div class="row align-items-stretch row-cols-md-2 gap-5 gap-md-0">
+            <div class="col-lg-6 view-animation">
+              <h3 class="">Contact Information</h3>
+              <h1 class="text-primary fw-semibold mb-3">Get In Touch</h1>
+              <form action="">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control px-3 py-2"
+                    placeholder="Name *"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control px-3 py-2"
+                    placeholder="Email *"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control px-3 py-2"
+                    placeholder="Phone Number *"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control px-3 py-2"
+                    placeholder="Message *"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+
+                <button class="btn btn-primary rounded-pill" type="submit">
+                  Send Messages
+                </button>
+              </form>
+            </div>
+            <div class="col-lg-6 view-animation px-0 text-center">
+              <img
+                class="img-fluid contact-image"
+                src="/assets/images/contact-section-image.png"
+                alt="Contact Illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="">
+        <div
+          class="container-xxl mx-auto row row-cols-1 row-cols-md-5 py-5 my-5 border-top"
+        >
+          <div class="col-md-4 p-0 order-1 view-animation">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+            >
+              <img src="/assets/images/brand-logo.svg" alt="brand-logo" />
+            </a>
+            <p class="opacity-80 fw-light" style="word-spacing: 10px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis, aspernatur sint. Sint, deserunt officiis? Et
+              recusandae ut necessitatibus, aliquam vel tempore perspiciatis,
+              nihil laborum sequi iure suscipit minus ex architecto.
+            </p>
+          </div>
+
+          <div class="col-md-2 ms-auto order-2 view-animation">
+            <h5>Quick Links</h5>
+            <ul class="nav flex-column gap-2">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">Contact Us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">Terms & Conditions</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 order-3 view-animation">
+            <h5>Our Information</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 d-flex align-items-center gap-2">
+                <img
+                  src="/assets/images/footer-email-icon.svg"
+                  alt="Email Icon"
+                />
+                info@example.com
+              </li>
+              <li class="nav-item mb-2 d-flex align-items-center gap-2">
+                <img
+                  src="/assets/images/footer-location-icon.svg"
+                  alt="Location Icon"
+                />
+                <div>
+                  4821 Ridge Top Cir, Anchorage Street, Alaska 99508, USA
+                </div>
+              </li>
+              <li class="nav-item mb-2 d-flex align-items-center gap-2">
+                <img
+                  src="/assets/images/footer-phone-icon.svg"
+                  alt="Phone Icon"
+                />
+                +(000) 222-7592
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 order-4 view-animation">
+            <h5>Our Socials</h5>
+            <ul class="nav flex-column gap-2">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link d-flex align-items-center gap-2 p-0"
+                >
+                  <img src="/assets/images/footer-fb-icon.svg" alt="Facebook" />
+                  <span>Facebook</span>
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link d-flex align-items-center gap-2 p-0"
+                >
+                  <img
+                    src="/assets/images/footer-insta-icon.svg"
+                    alt="Instagram"
+                  />
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link d-flex align-items-center gap-2 p-0"
+                >
+                  <img src="/assets/images/footer-x-icon.svg" alt="Twitter" />
+                  <span>Twitter</span>
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link d-flex align-items-center gap-2 p-0"
+                >
+                  <img
+                    src="/assets/images/footer-linkedin-icon.svg"
+                    alt="LinkedIn"
+                  />
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="py-4">
+          <p class="text-center opacity-60">
+            Copyright ©2025. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
