@@ -112,7 +112,6 @@ a {
   transition: color 0.3s ease-in-out;
 }
 
-/* User Dropdown */
 .user-dropdown {
   padding: 5px 12px;
   border: 1px solid var(--bs-primary);
@@ -123,7 +122,6 @@ a {
 .user-dropdown:hover {
 }
 
-/* User Avatar */
 .user-avatar {
   width: 30px;
   height: 30px;
@@ -131,15 +129,6 @@ a {
   object-fit: cover;
 }
 
-/* CTA Button */
-.btn-primary {
-  background-color: #0d6efd;
-  border: none;
-  padding: 10px 20px;
-  font-weight: 600;
-}
-
-/* Mobile Responsiveness */
 @media (max-width: 991px) {
   .navbar-nav {
     gap: 15px;
@@ -192,7 +181,6 @@ a {
   width: 100%;
 }
 
-/* Input Field Styling */
 .search-input {
   color: white !important;
   border: none;
@@ -214,7 +202,6 @@ a {
   background: rgba(255, 255, 255, 0.25);
 }
 
-/* Search Icon */
 .search-icon {
   background: rgba(255, 255, 255, 0.4);
   transition: all 0.3s ease-in-out;
@@ -224,7 +211,6 @@ a {
   background: rgba(255, 255, 255, 0.6);
 }
 
-/* Dropdown Styling */
 .dropdown button {
   padding: 12px 20px;
   font-size: 16px;
@@ -257,7 +243,6 @@ a {
   animation: fadeIn 1s ease-in-out;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 992px) {
   .header-section h1 {
     font-size: 50px;
@@ -342,11 +327,10 @@ a {
 
 /* Service Icons */
 .service-icon {
-  width: 60px; /* Consistent icon size */
+  width: 60px;
   height: auto;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .service-section {
     padding: 60px 10px;
@@ -519,7 +503,6 @@ footer a:hover {
   opacity: 0.8;
 }
 
-/* Responsive Fixes */
 @media (max-width: 768px) {
   .contact-section {
     padding: 50px 20px;
@@ -557,5 +540,5 @@ footer a:hover {
 .view-animation {
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 30%;
 }
